@@ -9,6 +9,7 @@
 // prompts
 myFirstName = prompt("Please enter your first name:");
 myLastName  = prompt("Please enter your last name:");
+myAge       = prompt("Please enter your Age:");
 
 //Days of Week Array
 var days = new Array;
@@ -36,22 +37,27 @@ months[11] = "November";
 months[12] = "December";
 
 //Day of Week variables
-//parseInt - Advise from co worker to use parseInt - The parseInt() function parses a string argument and returns an integer.
 
-function compute(parameters) {
+// Another option is to use the The Date object has a .getDay() that return the day of the week (integer) for any date.
+//Parse your input strings (convert to integers with parseInt) into the appropriate place in the constructor.
+//new Date(year, month[, day[, hour[, minutes[, seconds[, milliseconds]]]]]);
+//Then call the .getDay on your new date.
+
+    function compute(parameters)
+{
     var form = parameters.form;
     var val1 = parseInt(form.day.value, 10);
     if ((val1 < 0) || (val1 > 31)) {
-        alert("Day is out of range")
+        alert("Day is not valid")
     }
     var val2 = parseInt(form.month.value, 10);
     if ((val2 < 0) || (val2 > 12)) {
-        alert("Month is out of range")
+        alert(" A valid Month is between 1 and 12")
     }
     var val2x = parseInt(form.month.value, 10);
     var val3 = parseInt(form.year.value, 10);
     if (val3 < 1900) {
-        alert("You're that old!")
+        alert("You're that old!?")
     }
     if (val2 == 1) {
         val2x = 13;
