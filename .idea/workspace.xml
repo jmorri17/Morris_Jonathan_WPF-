@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="27474215-f199-4def-82d8-750d2302cf0e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Morris_Jonathan_Expressions_Assignment/Expressions.html" afterPath="$PROJECT_DIR$/Morris_Jonathan_Expressions_Assignment/Expressions.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Morris_Jonathan_Expressions_Assignment/js/script.js" afterPath="$PROJECT_DIR$/Morris_Jonathan_Expressions_Assignment/js/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Morris_Jonathan_WPF-.iws" />
@@ -53,8 +52,8 @@
       <file leaf-file-name="Expressions.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Morris_Jonathan_Expressions_Assignment/Expressions.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1754386" vertical-offset="0" max-vertical-offset="684">
-              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="15" />
+            <state vertical-scroll-proportion="0.5482456" vertical-offset="0" max-vertical-offset="684">
+              <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -83,8 +82,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="4" />
-    <option name="y" value="68" />
+    <option name="x" value="139" />
+    <option name="y" value="23" />
     <option name="width" value="1400" />
     <option name="height" value="828" />
   </component>
@@ -282,7 +281,13 @@
       <option name="project" value="LOCAL" />
       <updated>1426088803968</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="created JS and HTML files for Expressions Assignment">
+      <created>1426094626245</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1426094626245</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -306,8 +311,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="68" width="1400" height="828" extended-state="0" />
-    <editor active="false" />
+    <frame x="139" y="23" width="1400" height="828" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -320,7 +325,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32880434" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24945612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24945612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32880434" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -524,8 +529,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Morris_Jonathan_Expressions_Assignment/Expressions.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1754386" vertical-offset="0" max-vertical-offset="684">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="15" />
+        <state vertical-scroll-proportion="0.5482456" vertical-offset="0" max-vertical-offset="684">
+          <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
           <folding />
         </state>
       </provider>
