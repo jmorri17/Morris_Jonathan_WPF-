@@ -36,6 +36,7 @@ months[11] = "November";
 months[12] = "December";
 
 //Day of Week variables
+//parseInt - Advise from co worker to use parseInt - The parseInt() function parses a string argument and returns an integer.
 
 function compute(parameters) {
     var form = parameters.form;
