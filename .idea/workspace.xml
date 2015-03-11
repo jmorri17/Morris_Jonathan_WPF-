@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="27474215-f199-4def-82d8-750d2302cf0e" name="Default" comment="created JS and HTML files for Expressions Assignment">
+    <list default="true" id="27474215-f199-4def-82d8-750d2302cf0e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Morris_Jonathan_WPF-.iws" />
@@ -81,8 +81,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-24" />
-    <option name="y" value="23" />
+    <option name="x" value="14" />
+    <option name="y" value="24" />
     <option name="width" value="1400" />
     <option name="height" value="828" />
   </component>
@@ -292,7 +292,13 @@
       <option name="project" value="LOCAL" />
       <updated>1426095707489</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="created JS and HTML files for Expressions Assignment">
+      <created>1426096488722</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1426096488722</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -316,7 +322,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-24" y="23" width="1400" height="828" extended-state="0" />
+    <frame x="14" y="24" width="1400" height="828" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
