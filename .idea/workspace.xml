@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27474215-f199-4def-82d8-750d2302cf0e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Morris_Jonathan_Expressions_Assignment/js/script.js" afterPath="$PROJECT_DIR$/Morris_Jonathan_Expressions_Assignment/js/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Morris_Jonathan_WPF-.iws" />
@@ -313,7 +312,13 @@
       <option name="project" value="LOCAL" />
       <updated>1426105492702</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="created JS and HTML files for Expressions Assignment">
+      <created>1426105770361</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1426105770361</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
