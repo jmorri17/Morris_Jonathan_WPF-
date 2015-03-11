@@ -79,6 +79,6 @@ months[12] = "December";
 
     console.log ("Your name is " + myFirstName + " " + myLastName + ".");
     console.log ("Your Age is " + myAge + ".")
-    console.log ("Your Birthday is ",form.result1.value = months[val2]+" "+form.day.value +", "+form.year.value);
-    console.log ("You were born on a", form.result2.value = days[val0]);
+    console.log ("Your Birthday is ",months[val2]+" "+form.day.value +", "+form.year.value);
+    console.log ("You were born on a",days[val0]);
 }
