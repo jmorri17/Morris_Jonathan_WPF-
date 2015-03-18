@@ -30,3 +30,35 @@ var fahrenCalc = (9 / 5) * tempAmountC + 32;
     alert(tempAmountC + " degrees in Celsius" + fahrenCalc + "degrees Fahrenheith");
 }
 
+
+// GROUP 2: Multiple Results
+
+//Check the Login
+
+var userName = prompt("Enter User ID:");
+var adminName = "JoeBagOdoughnuts";
+(userName == adminName) ? console.log ("Username Entered") : console.log("Username not found.");
+var adminPassword = "Fender1234";
+if(userName == false) {
+   console.log("Password");
+}else if (userPassword == adminPassword){
+
+}
+
+var userPassword = prompt("Enter User password below:");
+if (userPassword == adminPassword){
+    console.log("Hello " + userName);
+}
+
+
+// GROUP 3: Multiple Conditions
+
+//Tire Pressure
+
+var tires = prompt ["LF 30 psi", "RF 35 psi", "LR 35 psi", "RR 35 psi"];
+
+if (!(tires[0] <= tires[1] && tires [2] <= tires[3])) {
+    console.log("Tire pressure is good!");
+} else {
+    console.log("Please check tire pressure");
+}
