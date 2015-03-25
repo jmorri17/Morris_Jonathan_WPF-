@@ -425,7 +425,13 @@
       <option name="project" value="LOCAL" />
       <updated>1427299138558</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="created JS and HTML files for Expressions Assignment">
+      <created>1427299149368</created>
+      <option name="number" value="00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1427299149368</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
