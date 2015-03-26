@@ -24,7 +24,7 @@ function gameValidation(choice) {
     }
 userInput = gameValidation;
 
-//Florida Lotto
+//Florida Lotto Function
 function randomNumGen(min, max, num) {
 
     var newArray = []; //new array
@@ -41,8 +41,26 @@ function randomNumGen(min, max, num) {
 // generate 5 numbers between 1 and 90
 flLotto = randomNumGen(1, 90, 5); }
 
+//Powerball Function
 
+function randomNumGenPb(min, max, num) {
+    var newArray1 = []; //new array
 
+    for (var i = 0; i < num; i++) {
+
+        var myRandomNumberPB = Math.round(Math.random() * (max - min) + min);
+
+        newArray1[i] = myRandomNumberPB;
+    }
+    return newArray1;
+}
+// generate 6 numbers for powerball
+pwrball = randomNumGen(1, 90, 6);
 
 //main code
+//output
+console.log console.log(“You have chosen to play " +gameValidation()); //displays users lottery type choice
+
+(gameValidation === "Florida") ? console.log("Florida lotto numbers are... " + flLotto+ ".") : console.log(“The Powerball numbers are... " + pwrBall  ".");
+
 
