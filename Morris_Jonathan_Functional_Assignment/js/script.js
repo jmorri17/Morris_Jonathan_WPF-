@@ -7,22 +7,22 @@
 //variables
 var userInput =prompt("What game would you like to play? \n\n Florida Lottery or Powerball?"); //prompt for lottery type
 var flLotto; //lotto variable
-var pwrball; // powerball variable
+var pwrBall; // powerball variable
 
 //functions
 
 function gameValidation(choice) {
     var timesClicked = 1;
 
-    while (choice === "") {
+    while (choice === "") { //loop if left blank
 
         timesClicked++;
 
         if (timesCLicked === 10) { // if no entry is made after 10 clicks then user will receive a message to make a selection
-            console.log("Please make a proper selection, Powerball or Fl Lotto?");
+            console.log("Please make a proper selection, Powerball or Florida Lottery ?");
             break;  //ends loop after 10 clicks
         }
-        return choice; //userInput
+        return (choice);
     }
     userInput = gameValidation;
 
@@ -57,7 +57,7 @@ function randomNumGen(min, max, num) {
     return newArray1;
 }
 // generate 6 numbers for powerball
-pwrball = randomNumGen(1, 90, 6);
+pwrBall = randomNumGen(1, 90, 6);
 
 //main code
 //output
