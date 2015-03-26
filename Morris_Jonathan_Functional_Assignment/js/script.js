@@ -12,9 +12,12 @@ var pwrBall; // powerball variable
 //functions
 
 function gameValidation(choice) {
+
     var timesClicked = 1;
 
-    while (choice === "") { //loop if left blank
+    while (choice === " ") {
+
+        userInput = prompt("Do not leave this blank.\n\nPlease type in a selection:");
 
         timesClicked++;
 
@@ -22,7 +25,7 @@ function gameValidation(choice) {
             console.log("Please make a proper selection, Powerball or Florida Lottery ?");
             break;  //ends loop after 10 clicks
         }
-        return (choice);
+        
     }
     userInput = gameValidation;
 
@@ -45,7 +48,7 @@ function gameValidation(choice) {
 
 //Powerball Function
 
-function randomNumGen(min, max, num) {
+function  randomNumGen(min, max, num){
     var newArray1 = []; //new array
 
     for (var i = 0; i < num; i++) {
@@ -57,10 +60,12 @@ function randomNumGen(min, max, num) {
     return newArray1;
 }
 // generate 6 numbers for powerball
-pwrBall = randomNumGen(1, 90, 6);
+pwrBall = myRandomNumGenPB(1, 90, 6);
 
 //main code
 //output
 console.log("You have chosen to play " +gameValidation()); //displays users lottery type choice
 
-(gameValidation === "Florida") ? console.log("Florida lotto numbers are... " + flLotto+ ".") : console.log("The Powerball numbers are... " + pwrBall  + ".");
+console.log (gameValidation === "Florida") ?
+    console.log("Florida lotto numbers are... " + flLotto + ".") :
+         console.log("The Powerball numbers are... " + pwrBall  + ".");
