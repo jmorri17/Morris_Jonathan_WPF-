@@ -1,6 +1,7 @@
 //Jonathan Morris
 //SDI - Week 3 Conditional Expression Screencast
 
+
 var kidsHeight = 40;
 var minHeight  = 48;
 
@@ -14,3 +15,4 @@ if (minHeight < kidsHeight + 2) {
     //code performed if condition is false
     console.log("Sorry kid, you've got some growing to do first!");
 }
+

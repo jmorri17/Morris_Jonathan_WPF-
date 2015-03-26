@@ -1,7 +1,7 @@
 //Jonathan Morris
 //SDI Week 3 - Screencast Notes & Practice
 
-//alert ("JavaScript works!");
+alert ("JavaScript works!");
 
 
 // GROUP 1: Celsius to Fahrenheit converter
