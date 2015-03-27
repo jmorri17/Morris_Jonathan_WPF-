@@ -11,10 +11,10 @@ var pwrBall; // powerball variable
 
 //functions
 
-function gameValidation(choice) {
+function gameValidation (choice) {
     var timesClicked = 1;
 
-    while (choice === " ") {
+    while (choice === "((choice !== 1) and (choice !== 2)") {
 
         userInput = prompt("Do not leave this blank.\n\nPlease type in a selection:");
 
@@ -44,7 +44,7 @@ function randomNumGen(min, max, num) {
 }
 
 // generate 5 numbers between 1 and 90
-flLotto = randomNumGen(1, 90, 5); 
+flLotto = randomNumGen(1, 90, 5);
 
 //Powerball Function
 
