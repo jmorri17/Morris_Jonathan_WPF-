@@ -19,7 +19,7 @@ function gameValidation () {
 
     }
 
-    userInput = gameValidation;
+
     if(choice == "Florida"){
 
         var magicNumbers = randomNumGen(1,99,5);
